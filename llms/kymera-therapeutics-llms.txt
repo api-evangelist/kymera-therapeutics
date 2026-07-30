@@ -1,0 +1,51 @@
+# Kymera Therapeutics
+
+> Clinical-stage biopharmaceutical company in Watertown, Massachusetts building oral
+> small-molecule medicines with targeted protein degradation — degraders that recruit
+> the body's own protein-disposal machinery to eliminate disease-driving proteins that
+> conventional inhibitors cannot drug. Kymera publishes no public developer API,
+> developer portal, SDK, or machine-readable API description; this file describes the
+> company's public web surface for agents and research tools.
+
+## Company
+
+- [Kymera Therapeutics](https://www.kymeratx.com): Corporate home page.
+- [About Us](https://www.kymeratx.com/about-us/): Company overview and mission — "build a global medicines company that harnesses novel modalities to revolutionize healthcare."
+- [Leadership](https://www.kymeratx.com/about-us/leadership/): Executive and board leadership.
+- [Careers & Culture](https://www.kymeratx.com/careers-culture/): Open roles and culture.
+- [Contact Us](https://www.kymeratx.com/contact-us/): Corporate contact — 500 North Beacon Street, 4th Floor, Watertown, MA 02472.
+
+## Science
+
+- [Our Approach](https://www.kymeratx.com/science-innovation/our-approach/): Targeted protein degradation as a disease-agnostic modality where a binding event is sufficient to drive degradation.
+- [Pipeline](https://www.kymeratx.com/science-innovation/pipeline/): Clinical and preclinical programs.
+- [Resource Library](https://www.kymeratx.com/resource-library/): Publications, posters, and presentations.
+
+## Pipeline programs
+
+- KT-621 — oral STAT6 degrader, Phase 2, wholly owned. Type 2 inflammatory disease: atopic dermatitis, asthma, COPD, eosinophilic esophagitis, chronic rhinosinusitis with nasal polyps, chronic spontaneous urticaria, prurigo nodularis, bullous pemphigoid.
+- KT-579 — first-in-class oral IRF5 degrader, Phase 1, wholly owned. Lupus, Sjogren's syndrome, rheumatoid arthritis, inflammatory bowel disease, systemic sclerosis, dermatomyositis.
+- KT-485 / SAR447971 — oral IRAK4 degrader, Phase 1, partnered with Sanofi. Hidradenitis suppurativa, atopic dermatitis, rheumatoid arthritis, asthma, IBD.
+- KT-200 — CDK2 molecular glue degrader, IND-enabling, partnered with Gilead Sciences. CCNE1-amplified breast cancer and solid tumors.
+
+## Stakeholders
+
+- [Investors](https://investors.kymeratx.com/): Investor relations, filings, and events.
+- [Press Releases](https://investors.kymeratx.com/news-events/press-releases): Company news.
+- [Media](https://www.kymeratx.com/media/): Media resources.
+- [Patients](https://patients.kymeratx.com/): Patient-facing information.
+
+## Optional
+
+- [GitHub](https://github.com/kymeratx): Kymera Therapeutics GitHub organization.
+- [LinkedIn](https://www.linkedin.com/company/kymeratherapeutics/)
+- [X / Twitter](https://twitter.com/KymeraTx)
+- [Terms of Use](https://www.kymeratx.com/terms-of-use/)
+- [Privacy Policy](https://www.kymeratx.com/privacy-policy/)
+
+## Notes for agents
+
+- No public API, OpenAPI/AsyncAPI description, MCP server, SDK, CLI, sandbox, or OAuth surface is published by Kymera Therapeutics as of 2026-07-19.
+- No /.well-known/ discovery documents (security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json) are served on any Kymera host.
+- No vulnerability-disclosure program, bug bounty, or trust center was found on the public site.
+- investors.kymeratx.com is fronted by a bot-filtering CDN and returns 403 to unauthenticated automated requests.

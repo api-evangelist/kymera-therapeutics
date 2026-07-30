@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ on every public Kymera Therapeutics host
+result: none
+notes: >-
+  No /.well-known/ discovery documents are published on any Kymera Therapeutics
+  host. The investors subdomain is fronted by a bot-filtering CDN and returns 403
+  to every unauthenticated request, including /.well-known/ paths, so those probes
+  are recorded as 403 (blocked) rather than 404 (absent). No WellKnown or
+  SecurityTxt pointer is wired in apis.yml because nothing was found.
+hosts:
+- host: https://www.kymeratx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://patients.kymeratx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://investors.kymeratx.com
+  blocked: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
